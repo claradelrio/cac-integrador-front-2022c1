@@ -2,15 +2,63 @@
     background-color: #353a40 !important;
 }
 
-{
-    background-color: #353a40;
+.white-bg {
+    background-color: white;
 }
+
+.text {
+    text-align: left;
+    color: black;
+    font-size: smaller;
+}
+
 .navbar-container {
     width: 90% !important;
 }
 
 .green-link {
     color: green !important;
+}
+
+.title-oradores {
+    text-align: center;
+    color: black;
+}
+
+.name-oradores {
+    text-align: left;
+    color: black;
+    font-size: 0.5em;
+}
+
+.subtitle {
+    text-align: center;
+    color: black;
+    font-size: 0.9em;
+    padding-bottom: 0%;
+}
+
+.container-oradores {
+    display: flex;
+    justify-content: center;
+}
+
+.button-oradores {
+    padding: .05rem .1rem !important;
+    font-weight: bold !important;
+}
+
+.oradores {
+    width: 80%;
+}
+
+.border-oradores {
+    border: 1px solid #dee2e6;
+    border-radius: 0.25rem;
+}
+
+.padding-oradores {
+    padding: 20px;
 }
 .overlay {
     text-align: right;
