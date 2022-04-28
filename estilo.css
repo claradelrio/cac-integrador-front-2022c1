@@ -1,5 +1,37 @@
-.colortheme
+.colortheme {
+    background-color: #353a40 !important;
+}
 
 {
     background-color: #353a40;
+}
+.navbar-container {
+    width: 90% !important;
+}
+
+.green-link {
+    color: green !important;
+}
+.overlay {
+    text-align: right;
+    width: 40%;
+    position: absolute !important;
+    top: 50% !important;
+    right: 5% !important;
+    bottom: unset !important;
+    left: unset !important;
+    transform: translate(0, -50%);
+}
+
+.card-custom {
+    border: none !important;
+    border-radius: 0% !important;
+}
+
+.card-title-custom {
+    font-size: 3em;
+}
+
+.card-text-custom {
+    font-size: 1.25em;
 }
