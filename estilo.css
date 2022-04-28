@@ -60,6 +60,21 @@
 .padding-oradores {
     padding: 20px;
 }
+
+
+.placeholder-lg {
+    font-size: x-large !important;
+}
+
+.enviar-button {
+    background-color: #96c93e !important;
+    font-size: x-large !important;
+    border: 0px !important;
+}
+
+.form-container {
+    width: 50% !important;
+}
 .overlay {
     text-align: right;
     width: 40%;
