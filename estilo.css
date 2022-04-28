@@ -75,6 +75,23 @@
 .form-container {
     width: 50% !important;
 }
+
+.footer-container {
+    background-color: #1e5170 !important;
+}
+
+.footer {
+    width: 80% !important;
+}
+
+.footer-list {
+    align-items: center;
+}
+
+.footer-item {
+    max-width: 12%;
+}
+
 .overlay {
     text-align: right;
     width: 40%;
