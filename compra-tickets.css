@@ -1,0 +1,53 @@
+.texto-categoria {
+    text-align: center;
+    color: black;
+    font-size: large;
+}
+
+.porcentaje-categoria {
+    text-align: center;
+    color: black;
+    font-size: larger;
+    font-weight: bold;
+}
+
+.subtitulo-categoria {
+    text-align: center;
+    color: #a09aa4;
+    font-size: medium;
+    font-weight: 100;
+}
+
+.titulo-categoria {
+    text-align: center;
+    color: black;
+    font-size: 2em;
+}
+
+.border-discount-estudiante {
+    border: 2px solid #047dfe;
+    border-radius: 0.25rem;
+}
+
+.border-discount-trainee {
+    border: 2px solid #96d5df;
+    border-radius: 0.25rem;
+}
+
+.border-discount-junior {
+    border: 2px solid #ffc10a;
+    border-radius: 0.25rem;
+}
+
+.comprar-button {
+    background-color: #96c93e !important;
+    font-size: x-large !important;
+    border: 0px !important;
+    width: 100%;
+}
+
+.total-a-pagar {
+    background-color: #cce5ff !important;
+    color: #08468a !important;
+    border: 0px !important;
+}
