@@ -25,5 +25,13 @@ function enableButton() {
 
     const resumen = form.elements["resumen"];
 
+    cantidad.value = cantidad.value.replace(/[^0-9.]/g, '').replace(/(\..*)\./g, '$1');
+
     resumen.disabled = cantidad.value == "";
+}
+
+function resetForm() {
+    const form = document.getElementById("tickets");
+
+    form.reset();
 }

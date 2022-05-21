@@ -112,10 +112,8 @@
 
         <div class="row mt-3">
           <div class="form-group placeholder-lg">
-            <input type="text" class="form-control" placeholder="Correo">
-
+            <input type="email" class="form-control" placeholder="Correo">
           </div>
-
         </div>
 
         <div class="row mt-3">
@@ -143,10 +141,12 @@
 
         <div class="row mt-3">
           <div class="col">
-            <button type="button" class="btn btn-primary btn-lg btn-block comprar-button">Borrar</button>
+            <button type="button" class="btn btn-primary btn-lg btn-block comprar-button"
+              onclick="resetForm">Borrar</button>
           </div>
           <div class="col">
-            <button id="resumen" type="button" class="btn-block btn btn-primary btn-lg comprar-button" disabled onclick="calcularTotal()">Resumen</button>
+            <button id="resumen" type="button" class="btn-block btn btn-primary btn-lg comprar-button" disabled
+              onclick="calcularTotal()">Resumen</button>
           </div>
         </div>
       </form>
